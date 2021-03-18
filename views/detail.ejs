@@ -1,0 +1,27 @@
+<%- include("./partials/header")%>
+  <div class="container">
+    <div class="jumbotron">
+       
+    
+     <%if(data.Rated==='PG-13'){%>
+        <div class="alert alert-warning" role="alert">
+           Watch with your parents
+          </div>
+     <%}%>
+
+    
+
+       <h1><%=data.Title%></h1>
+       <p><%=data.Plot%></p>
+
+
+      <ul>
+           <%data['Ratings'].forEach(function(rating){%>
+               <li> <%=rating.Source%> - <%=rating.Value%> </li>
+           <%})%>
+
+
+      </ul> 
+      </div>
+    </div>
+<%- include("./partials/footer")%>

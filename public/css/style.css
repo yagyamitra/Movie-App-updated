@@ -1,0 +1,27 @@
+.jumbotron{
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding-top: 10px;
+    background-color: rgb(114, 184, 180);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(92 119 125);
+}
+.container h1{
+    color: rgb(0 0 0);
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+
+}
+
+
+/* <style> */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+/* </style> */
+
+
+
+
+
+
